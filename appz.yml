@@ -14,6 +14,12 @@ deploy:
     port:
     - 9182
 properties:
+    APPZ_PLAYLIST: iis
+    IIS_HOSTNAME: localhost
+    COLOR: RoyalBlue
+    LOGCOLLECTOR_PORT: 30371
+    IIS_STANDALONE: yes
+    WINDOWS_EXPORTER_DIR: C:\windows-exporter
     WINDOWS_PASS:
        vault: WINDOWS_PASS
     revision : 2
