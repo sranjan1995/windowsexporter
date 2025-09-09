@@ -1,0 +1,20 @@
+app:
+    name: windowsexporter
+    code: WINDOWSEXPORTER
+    notify: srswain@ecloudcontrol.com
+build:
+    version: 0.1
+    env: DEV
+    build_file: none
+    output_files: output/*.zip
+    image_template: windowsexporter-0.1
+deploy:
+    context: alpha/DEV
+    replicas: 1
+    port:
+    - 9182
+properties:
+    WINDOWS_PASS:
+       vault: WINDOWS_PASS
+    revision : 0
+
