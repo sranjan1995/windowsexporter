@@ -16,5 +16,5 @@ deploy:
 properties:
     WINDOWS_PASS:
        vault: WINDOWS_PASS
-    revision : 0
+    revision : 1
 
