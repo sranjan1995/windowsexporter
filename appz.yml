@@ -22,4 +22,4 @@ properties:
     WINDOWS_EXPORTER_DIR: C:\windows-exporter
     WINDOWS_PASS:
        vault: WINDOWS_PASS
-    revision : 5
+    revision : 6
