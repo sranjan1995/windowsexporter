@@ -22,4 +22,8 @@ properties:
     WINDOWS_EXPORTER_DIR: C:\windows-exporter
     WINDOWS_PASS:
        vault: WINDOWS_PASS
+    WINDOWS_PASS_1:
+       vault: WINDOWS_PASS_1
+    WINDOWS_PASS_2:
+       vault: WINDOWS_PASS_2
     revision : 15
