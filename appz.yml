@@ -26,6 +26,6 @@ properties:
        vault: WINDOWS_PASS_1
     WINDOWS_PASS_2:
        vault: WINDOWS_PASS_2
-        WINDOWS_PASS_3:
+    WINDOWS_PASS_3:
        vault: WINDOWS_PASS_3
     revision : 18
